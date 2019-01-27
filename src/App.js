@@ -57,15 +57,15 @@ class App extends Component {
 		super(props);
 		this.state = {products: []};
 	}
-	componentDidMount() {
+	/*componentDidMount() {
 		import('./static/data/products.json')
 		.then((json) => this.setState({products: json.products}));
-	}
+	}*/
 	render() {
 		let {products} = this.state
 		return (
-				<div>
-					<ProductList products = {products} />
+				<div className="App">
+					<h1>THE T-SHIRT STORE</h1>
 				</div>
 		);
 	}
