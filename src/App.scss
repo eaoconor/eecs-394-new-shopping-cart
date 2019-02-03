@@ -1,8 +1,16 @@
-.App{
+.appLayout {
   text-align: center;
 }
-/* THE FOLLOWING CODE WAS COPIED FROM JEFFERSON RIBEIRO'S REACT-SHOPPING CART .SCSS FILES */
-/* START OF STYLE.SCSS FROM SRC/COMPONENTS/CLEARFIX FOLDER */
+
+.header{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* THE FOLLOWING CODE WAS COPIED FROM JEFFERSON RIBEIRO'S REACT-SHOPPING CART .SCSS FILES 
+START OF STYLE.SCSS FROM SRC/COMPONENTS/CLEARFIX FOLDER */
 
 .clearfix {
   clear: both;
